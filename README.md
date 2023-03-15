@@ -12,3 +12,6 @@ Es un área dónde se almacena información acerca de lo que estará en tu próx
 
 4. ¿Qué es un commit?
 Es una captura instantanea de los cambios preparados en ese momento del proyecto
+
+5. ¿Qué comando utilizo para agregar archivos modificados al Staging Area?
+Utilizo el comando "git add <nombre-archivo-modificado>"
