@@ -9,3 +9,6 @@ GitHub es una plataforma que permite alojar proyectos utilizando el sistema de c
 
 3. ¿Qué es el Staging Area?
 Es un área dónde se almacena información acerca de lo que estará en tu próximo commit, almacena temporalmente los cambios de tu proyecto
+
+4. ¿Qué es un commit?
+Es una captura instantanea de los cambios preparados en ese momento del proyecto
