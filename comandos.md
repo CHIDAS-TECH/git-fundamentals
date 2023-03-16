@@ -17,11 +17,42 @@ git config --global user.name <nombre-usuario>
 ```
 
 ```
-git config --global user.email <example@email.com>
+git config --global user.email <ejemplo@correo.com>
 ```
 
 3. Este comando sirve para agregar el archivo modificado al area de staging o area de preparación
 
 ```
-git add
+git add <archivo-modificado-
 ```
+
+4. Con este comando se inicia el repositorio/proyecto y se crea la carpeta oculta .git
+
+```
+git init
+```
+
+5. Con este comando se puede verificar el estatus de los archivos del proyecto y en que fase se encuentran
+
+```
+git status
+```
+
+6. Con este comando podemos agregar todos los archivos modificados al Staging Area (en el directorio dónd nos encontremos)
+
+```
+git add .
+```
+
+7. Con este comando podemos crear un commit
+
+```
+git commit -m "Mensaje del commit"
+```
+
+8. Con este comando podemos ver una lista de commits con información descriptiva (id, author, mensaje, hora y fecha) desde el más reciente al más antiguo
+
+```
+git log
+```
+
