@@ -60,4 +60,10 @@ git log
 ```
 git restore <nombre-archivo>
 ```
+10. Con este comando podemos cambiar de rama
+
+```
+git switch <nombre-rama>
+```
+
 
