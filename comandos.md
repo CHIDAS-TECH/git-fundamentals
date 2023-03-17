@@ -55,4 +55,9 @@ git commit -m "Mensaje del commit"
 ```
 git log
 ```
+9. Con este comando puedo restaurar el archivo que modifique
+
+```
+git restore <nombre-archivo>
+```
 
