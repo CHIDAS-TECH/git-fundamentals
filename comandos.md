@@ -60,4 +60,29 @@ git log
 ```
 git restore <nombre-archivo>
 ```
+10. Con este comando podemos cambiar de rama
 
+```
+git switch <nombre-rama>
+```
+
+11. Con este comando podemos guardar los cambios temporalmente en memoria, cuando aún no queremos realizar un commit
+```
+git stash
+```
+
+12. Con este comando podemos guardar los cambios temporalmente en memoria y le podemos asignar un mensaje
+```
+git stash save "mensaje"
+```
+
+13. Con este comando podemos traer de vuelta los cambios que teníamos guardados en el último stash
+```
+git stash pop
+```
+
+14. Con este comando se puede ver un listado de registros de commits con hash corto y el mensaje descriptivo de cada uno
+
+```
+git log --oneline
+```
